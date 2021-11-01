@@ -8,6 +8,7 @@ export default class Lists extends Component {
 				<List />
 				<List />
 				<List />
+				<List />
 			</div>
 		);
 	}
