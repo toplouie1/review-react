@@ -7,11 +7,11 @@ import Stats from "./components/Stats";
 export default class App extends Component {
 	render() {
 		return (
-			<div>
+			<div className="app">
 				<NavBar />
-				<Lists />
 				<Stats />
 				<Notes />
+				<Lists />
 			</div>
 		);
 	}

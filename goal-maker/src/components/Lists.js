@@ -4,7 +4,7 @@ import List from "./List";
 export default class Lists extends Component {
 	render() {
 		return (
-			<div>
+			<div className="List">
 				<List />
 				<List />
 				<List />
