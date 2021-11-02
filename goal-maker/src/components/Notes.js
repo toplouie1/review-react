@@ -6,10 +6,12 @@ export default class Notes extends Component {
 		return (
 			<div className="notes">
 				<h2>Notes</h2>
-				<Note />
-				<Note />
-				<Note />
-				<Note />
+				<div className="note-container">
+					<Note />
+					<Note />
+					<Note />
+					<Note />
+				</div>
 			</div>
 		);
 	}
