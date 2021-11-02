@@ -4,11 +4,13 @@ import List from "./List";
 export default class Lists extends Component {
 	render() {
 		return (
-			<div className="List">
-				<List />
-				<List />
-				<List />
-				<List />
+			<div className="list">
+				<h2>Lists </h2>
+				<div className="list-container">
+					<List />
+					<List />
+					<List />
+				</div>
 			</div>
 		);
 	}
